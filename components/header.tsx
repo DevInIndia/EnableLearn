@@ -39,6 +39,7 @@ const Header = () => {
             <Link href="/courses" className="hover:text-primary">Courses</Link>
             <Link href="/teaching" className="hover:text-primary">Teaching</Link>
             <Link href="/contact" className="hover:text-primary">Contact Us</Link>
+            <Link href="/feature" className="hover:text-primary">Features</Link>
           </div>
           <div className="flex items-center space-x-4">
             <DropdownMenu>
@@ -90,6 +91,7 @@ const Header = () => {
             <Link href="/courses" className="block px-4 py-2 rounded-md hover:bg-primary/10 hover:text-primary transition-all duration-200 transform hover:translate-x-2">Courses</Link>
             <Link href="/teaching" className="block px-4 py-2 rounded-md hover:bg-primary/10 hover:text-primary transition-all duration-200 transform hover:translate-x-2">Teaching</Link>
             <Link href="/contact" className="block px-4 py-2 rounded-md hover:bg-primary/10 hover:text-primary transition-all duration-200 transform hover:translate-x-2">Contact Us</Link>
+            <Link href="/feature" className="block px-4 py-2 rounded-md hover:bg-primary/10 hover:text-primary transition-all duration-200 transform hover:translate-x-2">Features</Link>
           </div>
         )}
       </nav>
